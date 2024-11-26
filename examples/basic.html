@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cherry Editor - Markdown Editor</title>
-  <link rel="stylesheet" type="text/css" href="../dist/cherry-markdown.css">
   <link rel="Shortcut Icon" href="../logo/favicon.ico">
   <style>
     html {
@@ -26,7 +25,10 @@
 
 <body>
   <div id="markdown"></div>
-  <script src="../dist/cherry-markdown.js"></script>
+  <!-- 引入 Cherry Markdown 的 CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cherry-markdown@0.8.46/dist/cherry-markdown.min.css">
+  <!-- 引入 Cherry Markdown 的 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/cherry-markdown@0.8.46/dist/cherry-markdown.min.js"></script>
 </body>
 <script>
 var config = {
